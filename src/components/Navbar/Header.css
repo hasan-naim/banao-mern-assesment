@@ -1,0 +1,67 @@
+.nav-input-inside-div {
+  width: 360px;
+  position: relative;
+}
+.nav-input-div input {
+  width: 360px;
+  border: none;
+  outline: none;
+  background-color: #f2f2f2;
+  height: 42px;
+  border-radius: 21px;
+  padding: 0px 20px;
+  padding-left: 40px;
+  color: #5c5c5c;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-input-div .search-icon {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  width: 16px;
+
+  height: 16px;
+  font-weight: bolder;
+  color: #5c5c5c;
+}
+
+.nav-loginTxt-div h6 {
+  color: #2e2e2e;
+  font-weight: 700;
+}
+.nav-loginTxt-div h6 span {
+  color: #2f6ce5;
+  cursor: pointer;
+}
+
+.nav-loginTxt-div .nav-arrow-icon {
+  width: 16px;
+  font-weight: 900;
+  margin-left: 8px;
+  color: #2e2e2e;
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    padding-top: 20px;
+  }
+  .nav-input-div {
+    margin-bottom: 10px;
+  }
+  .nav-loginTxt-div {
+    margin-left: 8px;
+  }
+}
+@media (min-width: 992px) {
+  .nav-input-div,
+  .nav-loginTxt-div {
+    text-align: end;
+  }
+  .nav-input-inside-div {
+    text-align: end;
+    margin-left: auto;
+    margin-right: -83px;
+  }
+}
