@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "../components/Navbar/Header";
+import Banner from "../components/Banner/Banner";
+import Header from "../components/Header/Header";
 
 function Home() {
   return (
     <div>
       <Header />
+      <Banner />
     </div>
   );
 }
